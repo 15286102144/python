@@ -19,4 +19,3 @@ def create_excel(header, body, file_path):
         active_sheet.append(item);
     # 文件保存
     workbook.save(filename=file_path);
-
